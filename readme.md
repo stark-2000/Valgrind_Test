@@ -25,3 +25,7 @@ Run the below command & open "callgrind.out.XXXXX" file located in ./build/app d
 ```
 valgrind --tool=callgrind ./shell-app
 ```
+## Output Files:
+pre_log - Valgrind output before fixing the bugs
+post_log - Valgrind output after fixing the 2 bugs
+KCachegrind_Output - Screenshot of profiler output
