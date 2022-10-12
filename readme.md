@@ -13,14 +13,15 @@ make
 cd app
 ```
 
-## Valgrind: 
+## Running "Valgrind": 
 Run the following command to show valgrind output
 ```
-valgrind --leak-check=full --track-origins=yes ./app/shell-app
+valgrind --leak-check=full --track-origins=yes ./shell-app
 ```
 
-## KCachegrind Memory Profiler Output via Command line
+## Running "Function & Memory Profiler KCachegrind": 
+Install "KCachegrind" from "Ubuntu Software" app
+Run the below command & open "callgrind.out.XXXXX" file located in ./build/app directory using "KCachegrind" app
 ```
-valgrind --tool=callgrind ./app/shell-app
+valgrind --tool=callgrind ./shell-app
 ```
--Open callgrind.out.XXX file where XXX will be the process identifier in build folder
