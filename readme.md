@@ -19,7 +19,7 @@ Run the following command to show valgrind output
 valgrind --leak-check=full --track-origins=yes ./shell-app
 ```
 
-## Running "Function & Memory Profiler KCachegrind": 
+## Running "Function & Memory Profiler - KCachegrind": 
 Install "KCachegrind" from "Ubuntu Software" app
 Run the below command & open "callgrind.out.XXXXX" file located in ./build/app directory using "KCachegrind" app
 ```
